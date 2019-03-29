@@ -3,7 +3,8 @@
   "workspaces": [
     "packages/*",
     "website",
-    "website-1.x"
+    "website-1.x",
+    "packages/docusaurus/test/__fixtures__/versioned-site/"
   ],
   "scripts": {
     "prettier": "prettier --config .prettierrc --write \"**/*.js\"",
